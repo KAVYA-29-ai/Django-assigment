@@ -7,7 +7,9 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-cuedx-2@xsuy&i^0*7pe$
 
 DEBUG = os.environ.get('DEBUG', 'True') == 'True'
 
-ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', 'flask-ass-1.onrender.com').split(',')
+ALLOWED_HOSTS = [
+    'django-assigment-h1sm.onrender.com'
+]
 
 INSTALLED_APPS = [
     'django.contrib.admin',
